@@ -1,2 +1,2 @@
 # laravel_CRUD
-Implementation for studying Laravel CRUD with mysql and login system through breeze
+Implementation a CRUD for studying framework Laravel with mysql and login system through breeze
