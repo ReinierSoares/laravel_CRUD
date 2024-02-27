@@ -14,8 +14,8 @@
 
     <!-- Scripts -->
 
-    <link rel="stylesheet" href="resources/css/app.css">
-    <script src="resources/js/app.js"></script>
+    <link rel="stylesheet" href="../../css/app.css">
+    <script src="../../js/app.js"></script>
 
 </head>
 
