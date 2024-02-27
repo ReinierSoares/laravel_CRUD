@@ -15,8 +15,8 @@
     <!-- Scripts -->
 
 
-    <link rel="stylesheet" href="/var/www/html/laravel_CRUD/resources/css/app.css">
-    <script src="/var/www/html/laravel_CRUD/resources/js/app.js"></script>
+    <link rel="stylesheet" href="resources/css/app.css">
+    <script src="resources/js/app.js"></script>
 
 </head>
 
