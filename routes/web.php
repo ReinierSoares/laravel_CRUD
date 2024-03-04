@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('/satellites');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
@@ -29,7 +29,7 @@ use Illuminate\Support\Facades\Route;
 //     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 // });
 
-Route::prefix('/')->group(function () {
+Route::prefix('satellites')->group(function () {
     Route::get('/', [SattelitesController::class, 'index'])->name('satellites-index');
     Route::get('/create', [SattelitesController::class, 'create'])->name('satellites-create');
     Route::post('/', [SattelitesController::class, 'store'])->name('satellites-store');
